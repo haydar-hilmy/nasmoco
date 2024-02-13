@@ -1,0 +1,37 @@
+body{
+    background-color: #d9d9d9;
+}
+.content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.banner{
+    width: 40%;
+}
+@media (max-width: 700px) {
+    .banner{
+        width: 100%;
+    }
+}
+
+.content-berita{
+    display: block;
+    background-color: #fff;
+    padding: 12px;
+    width: 80%;
+    border-radius: 12px;
+    transform: translateY(-30px);
+}
+.content-berita div{
+    margin: 10px 0;
+}
+.content-berita h3{
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+.content-berita h6{
+    font-weight: 300;
+    color: rgb(59, 59, 59);
+    font-size: 0.9rem;
+}

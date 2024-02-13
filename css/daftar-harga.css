@@ -1,0 +1,48 @@
+body{
+    background-color: #d9d9d9;
+}
+.content{
+    background-color: #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 12px 12px;
+    align-items: center;
+}
+.harga-wrap{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 12px;
+}
+.harga-wrap img{
+    width: 140px;
+}
+.harga-wrap div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.harga-wrap div h3{
+    font-weight: 800;
+    color: #D85F02;
+    font-size: 1.2rem;
+}
+.harga-wrap div h4{
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+
+@media (max-width: 600px) {
+    .content{
+        margin: 12px 12px;
+    }
+    .harga-wrap{
+        width: 95%;
+    }
+}

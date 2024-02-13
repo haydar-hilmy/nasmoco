@@ -1,0 +1,157 @@
+*, body{
+    margin: 0;
+    scroll-behavior: auto;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+    width: 4px;
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2px grey;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: #c3c3c3;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #858585;
+}
+:root{
+    --tinggi_topbar: 52px;
+}
+
+
+/* ================= NAVBAR & TOPBAR ================= */
+.top-bar{
+    background: rgb(122,2,4);
+    background: linear-gradient(167deg, rgba(122,2,4,1) 0%, rgba(224,6,10,1) 53%, rgba(122,2,4,1) 100%);
+    width: 100%;
+    color: #fff;
+    font-size: 1.5rem;
+    height: var(--tinggi_topbar);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.top-bar .logo-top-bar{
+    width: 250px;
+}
+.top-bar .icon-top-bar{
+    cursor: pointer;
+    margin: 20px;
+    width: 26px;
+    filter: invert(100);
+}
+
+
+
+.button-back{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #D85F02;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 0;
+    top: var(--tinggi_topbar);
+    left: 0;
+    position: sticky;
+}
+.button-back a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 10px;
+}
+.button-back img{
+    width: 27px;
+    filter: invert(100);
+}
+.button-back h3{
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+
+
+#nav-wrapper{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+#nav{
+    background-color: #fff;
+    display: block;
+    width: 260px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 100vh;
+}
+.nav-banner{
+    background-image: url("../asset/toyota-chr.jpeg");
+    width: 100%;
+    height: 160px;
+    background-size: auto 180px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.nav-banner h4{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 3px;
+    margin: 5px;
+}
+.nav-button-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid #DBDBDB;
+}
+.nav-button-wrap h4{
+    font-size: 0.93rem;
+    width: 100%;
+    text-align: left;
+    margin: 16px 0 16px 18px;
+    color: #636363;
+}
+.nav-button-wrap a{
+    text-decoration: none;
+    display: flex;
+    gap: 34px;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-start;
+    padding: 16px 0;
+    align-items: center;
+    cursor: pointer;
+}
+.nav-button-wrap:last-child a{
+    margin: 0 0 124px 0;
+}
+.nav-button-wrap a:hover{
+    background-color: #c3c3c3;
+    transition-duration: 150ms;
+}
+.nav-button-wrap a img{
+    width: 20px;
+    margin: 0 0 0 18px;
+}
+.nav-button-wrap a h5{
+    font-size: 0.9rem;
+    color: #000;
+}
+
+
+/* ================= END OF NAVBAR & TOPBAR ================= */

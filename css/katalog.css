@@ -1,0 +1,37 @@
+.content{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+}
+.product-wrap{
+    margin: 4px 8px;
+    border: 1px solid #969696;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 8px;
+}
+.product-wrap img{
+    width: 160px;
+}
+.product-wrap div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.product-wrap div h4{
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+.product-wrap div button{
+    padding: 12px 0;
+    margin: 10px;
+    border: 0;
+    width: 100%;
+    font-size: 0.85rem;
+    background-color: #d9d9d9;
+    font-weight: 600;
+}
