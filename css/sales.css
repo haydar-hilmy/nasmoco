@@ -1,0 +1,8 @@
+.info-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 12px;
+    border-top: 2px solid #adadad;
+    padding: 24px 32px;
+}
