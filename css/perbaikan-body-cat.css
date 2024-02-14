@@ -1,0 +1,23 @@
+.banner{
+    width: 100%;
+}
+
+.menu-wrap{
+    position: sticky;
+    top: 52px;
+    left: 0;
+    background-color: #ACABA9;
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    align-items: center;
+}
+.menu-wrap a{
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    width: 140px;
+    margin: 5px 0;
+}
